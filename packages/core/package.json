@@ -1,6 +1,6 @@
 {
-  "name": "@penguin/core",
-  "version": "1.0.75",
+  "name": "@vlladb/core",
+  "version": "1.0.76",
   "description": "Core components",
   "main": "index.ts",
   "keywords": [

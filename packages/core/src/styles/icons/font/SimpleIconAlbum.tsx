@@ -37,6 +37,8 @@ const SimpleIconAlbum = ({
     <FlatList
       {...rest}
       numColumns={numColumns}
+      //eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
       data={iconNames}
       renderItem={renderItem(onPress, color)}
       keyExtractor={keyExtractor}

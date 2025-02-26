@@ -1,6 +1,6 @@
 {
-  "name": "@penguin/chart",
-  "version": "1.0.75",
+  "name": "@vlladb/chart",
+  "version": "1.0.76",
   "description": "Charts test",
   "main": "index.ts",
   "keywords": [
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bataevvlad/penguin.git",
+    "url": "git+https://github.com/bataevvlad/penguin.git",
     "directory": "packages/chart"
   },
   "publishConfig": {
@@ -30,7 +30,7 @@
   "license": "MIT",
   "peerDependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
-    "@penguin/core": "1.0.75",
+    "@penguin/core": "1.0.76",
     "@shopify/react-native-skia": ">=0.1.234",
     "react": ">=17.0.2",
     "react-native": ">=0.66.4",

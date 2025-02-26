@@ -39,6 +39,6 @@ const SimpleIcon = ({
 
 export type SimpleIconName = keyof typeof glyphMap;
 
-export const iconNames = Object.keys(glyphMap) as SimpleIconName[];
+export const iconNames = Object.keys(glyphMap) as any[];
 
 export default SimpleIcon;

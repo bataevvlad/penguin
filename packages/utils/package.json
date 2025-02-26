@@ -1,6 +1,6 @@
 {
-  "name": "@penguin/utils",
-  "version": "1.0.75",
+  "name": "@vlladb/utils",
+  "version": "1.0.76",
   "description": "Utils for penguin",
   "main": "index.ts",
   "keywords": [

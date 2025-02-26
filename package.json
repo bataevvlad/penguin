@@ -1,6 +1,6 @@
 {
   "name": "@penguin/app",
-  "version": "1.0.75",
+  "version": "1.0.76",
   "private": true,
   "license": "MIT",
   "main": "expo-router/entry",
