@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@penguin/core/Radio/Circle renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "borderColor": "#FFFFFF",
+      "borderRadius": 9,
+      "borderWidth": 2,
+      "width": 18,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Radio/Circle renders correctly selected 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "borderColor": "#FFFFFF",
+      "borderRadius": 9,
+      "borderWidth": 2,
+      "width": 18,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "transparent",
+        "borderColor": "rgba(21, 28, 44, 0.2)",
+        "borderRadius": 11,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "width": 22,
+      }
+    }
+  />
+</View>
+`;

@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter render counter 1`] = `null`;
+
+exports[`Counter render counter ICounterSize.medium 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterSize.small 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 9,
+        "height": 18,
+        "justifyContent": "center",
+        "minWidth": 18,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "lineHeight": 16,
+          "minHeight": 16,
+        },
+        [
+          {
+            "paddingHorizontal": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    12
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.accent 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.accentLight 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#2B78EE",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    99+
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.attention 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#F54C3D",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    9+
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#F54C3D",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    2
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.muted 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#D0D6E0",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#9BA1B0",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.neutral 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#353A45",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    99+
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter style 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      {
+        "backgroundColor": "#FFF",
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    20
+  </Text>
+</View>
+`;
+
+exports[`Counter render font 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#151C2C",
+          "fontFamily": "Inter-Bold",
+          "fontSize": 10,
+          "fontWeight": "700",
+          "lineHeight": 14,
+          "minHeight": 14,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
+
+exports[`Counter render notification 1`] = `null`;

@@ -1,0 +1,50 @@
+{
+  "branches": [
+    "main",
+    {
+      "name": "next",
+      "prerelease": true
+    }
+  ],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer"
+    ],
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "packages/**/package.json",
+          "CHANGELOG.md",
+          [
+            "ios/**/Info.plist",
+            "!ios/Pods/**"
+          ],
+          [
+            "ios/**/project.pbxproj",
+            "!ios/Pods/**"
+          ],
+          "android/app/build.gradle"
+        ],
+        "message": "chore(release): ${nextRelease.version} - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n"
+      }
+    ],
+    [
+      "@semantic-release/github"
+    ]
+  ]
+}

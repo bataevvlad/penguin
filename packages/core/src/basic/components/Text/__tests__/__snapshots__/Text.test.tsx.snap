@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@penguin/core/Text renders correctly 1`] = `
+<Text
+  allowFontScaling={true}
+>
+  Text
+</Text>
+`;

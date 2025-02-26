@@ -1,0 +1,1593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@penguin/core/Button renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly 2`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 32,
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 6,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#F54C3D",
+          "fontFamily": "Inter-Bold",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "lineHeight": 22,
+          "minHeight": 22,
+        },
+        [
+          {
+            "paddingHorizontal": 4,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly destructive 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#F54C3D",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      2
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly disabled 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly fixed 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly large 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 12,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly left icon size large 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+      "paddingHorizontal": 26,
+      "paddingVertical": 12,
+    }
+  }
+>
+  <View />
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+  <View />
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly left icon size small 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 32,
+      "opacity": 1,
+      "paddingHorizontal": 14,
+      "paddingVertical": 6,
+    }
+  }
+>
+  <View />
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 18,
+          "minHeight": 18,
+        },
+        [
+          {
+            "paddingHorizontal": 4,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+  <View />
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly left icon small 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 32,
+      "opacity": 1,
+      "paddingHorizontal": 6,
+      "paddingVertical": 6,
+    }
+  }
+>
+  <View />
+  <View />
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly loading disabled 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "transparent",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 2`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 3`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 4`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#353A45",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 5`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "transparent",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 6`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 7`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading types 8`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#F54C3D",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly loading without type 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly secondary 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly small 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 32,
+      "opacity": 1,
+      "paddingHorizontal": 6,
+      "paddingVertical": 6,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly small 2`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 32,
+      "opacity": 1,
+      "paddingHorizontal": 6,
+      "paddingVertical": 6,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly tertiary 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "transparent",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@penguin/core/Button renders correctly text 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 32,
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 6,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 18,
+          "minHeight": 18,
+        },
+        [
+          {
+            "paddingHorizontal": 4,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`@penguin/core/Button renders correctly without size 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+/>
+`;

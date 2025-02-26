@@ -1,0 +1,40 @@
+{
+  "name": "@penguin/core",
+  "version": "1.0.75",
+  "description": "Core components",
+  "main": "index.ts",
+  "keywords": [
+    "core",
+    "react-native"
+  ],
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bataevvlad/penguin.git",
+    "directory": "packages/core"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladislav Bataev <bataevvlad@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "react-native": ">=0.66.4",
+    "react-native-safe-area-context": ">=4.4.1",
+    "react-native-svg": ">=12.3.0",
+    "react-native-svg-transformer": ">=1.0.0"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@tabler/icons-react-native": "^3.7.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@penguin/chart",
+  "version": "1.0.75",
+  "description": "Charts test",
+  "main": "index.ts",
+  "keywords": [
+    "chart",
+    "react-native",
+    "skia",
+    "reanimated"
+  ],
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bataevvlad/penguin.git",
+    "directory": "packages/chart"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Bataev <bataevvlad@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@penguin/core": "1.0.75",
+    "@shopify/react-native-skia": ">=0.1.234",
+    "react": ">=17.0.2",
+    "react-native": ">=0.66.4",
+    "react-native-gesture-handler": ">=2.14.1",
+    "react-native-reanimated": ">=3.6.1"
+  }
+}

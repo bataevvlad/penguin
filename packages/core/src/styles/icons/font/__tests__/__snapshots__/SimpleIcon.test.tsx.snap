@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@penguin/core/icons/SimpleIcon renders correctly 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    {
+      "color": "#353A45",
+      "fontFamily": "Neotis",
+      "fontSize": 24,
+    }
+  }
+>
+  
+</Text>
+`;
